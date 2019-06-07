@@ -76,3 +76,66 @@ print(all_inclusions)
 
 fixed_types = re.sub(pattern, "abc", string)
 print(fixed_types)
+
+pattern = r'ab*a'
+string = 'aa, aba, abba'
+all_inclusions = re.findall(pattern, string)
+print(all_inclusions)
+
+pattern = r'ab+a'
+string = 'aa, aba, abba'
+all_inclusions = re.findall(pattern, string)
+print(all_inclusions)
+
+pattern = r'ab?a'
+string = 'aa, aba, abba'
+all_inclusions = re.findall(pattern, string)
+print(all_inclusions)
+
+pattern = r'ab{2,4}a'
+string = 'aa, aba, abba, abbbba, abbbbbba'
+all_inclusions = re.findall(pattern, string)
+print(all_inclusions)
+
+pattern = r'a[ab]+?a'
+string = 'abaaba'
+print(re.findall(pattern, string))
+print(re.match(pattern, string))
+
+# группировка символов
+pattern = r'((abc)|(test|text)*)'
+string = 'testtext'
+matched = re.match(pattern, string)
+print(matched.groups())
+
+pattern = r'((abc)|(test|text)*)'
+string = 'abc'
+matched = re.match(pattern, string)
+print(matched.groups())
+
+pattern = r'Hello (abc|test)'
+string = 'Hello abc'
+matched = re.match(pattern, string)
+print(matched)
+print(matched.group(0))
+print(matched.group(1))
+
+pattern = r'(\w+)-\1'
+string = 'test-test'
+matched = re.match(pattern, string)
+print(matched)
+
+pattern = r'(\w+)-\1'
+string = 'test-text'
+matched = re.match(pattern, string)
+print(matched)
+
+pattern = r'(\w+)-\1'
+string = 'test-test chow-chow'
+matched = re.sub(pattern, r'\1', string)
+print(matched)
+
+pattern = r'((\w+)-\2)'
+string = 'test-test chow-chow'
+matched = re.findall(pattern, string)
+print(matched)
