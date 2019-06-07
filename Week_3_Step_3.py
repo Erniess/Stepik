@@ -44,3 +44,35 @@ print(all_inclusions)
 
 fixed_types = re.sub(pattern, "abc", string) # Ищет все вхождения по шаблону и заменяет их на abc
 print(fixed_types)
+
+# метасимволы - используются в паттернах для обозначения определенных условий
+# . ^ $ * + ? { } [ ] \ | ( )
+
+pattern = r' english\?' # Симфол ? необходимо экранировать тк являетя метасимволом
+string = 'Do you speak english?'
+match = re.search(pattern, string)
+print(match)
+
+pattern = r'a[a-zA-Z]c'
+string = 'aac'
+match_object = re.findall(pattern, string)
+print(match_object)
+
+string = 'abc, acc, aac, adc, aGc, aZc'
+all_inclusions = re.findall(pattern, string)
+print(all_inclusions)
+
+fixed_types = re.sub(pattern, "abc", string)
+print(fixed_types)
+
+pattern = r'a[^a-zA-Z]c'
+string = 'aac'
+match_object = re.findall(pattern, string)
+print(match_object)
+
+string = 'abc, a.c, aac, a-c, aGc, aZc'
+all_inclusions = re.findall(pattern, string)
+print(all_inclusions)
+
+fixed_types = re.sub(pattern, "abc", string)
+print(fixed_types)
