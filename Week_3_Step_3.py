@@ -139,3 +139,6 @@ pattern = r'((\w+)-\2)'
 string = 'test-test chow-chow'
 matched = re.findall(pattern, string)
 print(matched)
+
+x = re.match(r'(te)*?xt', 'TEXT', re.IGNORECASE | re.DEBUG)
+print(x)
