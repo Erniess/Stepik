@@ -120,7 +120,7 @@ print(matched)
 print(matched.group(0))
 print(matched.group(1))
 
-pattern = r'(\w+)-\1'
+pattern = r'(\w+)-\1' # \1 - указывает что необходимо найти точно такую же группу которую уже нашли
 string = 'test-test'
 matched = re.match(pattern, string)
 print(matched)

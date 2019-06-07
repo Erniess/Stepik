@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e5d5c14a-c78d-4f06-a9cc-2d2726e83376" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Week_3_Step_3_4.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Week_3_Step_3.py" afterPath="$PROJECT_DIR$/Week_3_Step_3.py" />
     </list>
     <ignored path="Stepik.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -24,50 +24,36 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Week_3_Step_3_1.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Week_3_Step_3_1.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-              <folding>
-                <element signature="e#226#235#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Week_3_Step_3_2.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Week_3_Step_3_2.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="28" selection-end-column="45" />
-              <folding>
-                <element signature="e#243#252#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Week_3_Step_3_3.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Week_3_Step_3_3.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="9" column="31" selection-start-line="3" selection-start-column="0" selection-end-line="9" selection-end-column="45" />
-              <folding>
-                <element signature="e#118#127#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Week_3_Step_3_4.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Week_3_Step_3_4.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Week_3_Step_3_4.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.2542373">
-              <caret line="9" column="45" selection-start-line="9" selection-start-column="45" selection-end-line="9" selection-end-column="45" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="20" selection-end-column="45" />
               <folding>
-                <element signature="e#88#97#0" expanded="true" />
+                <element signature="e#206#215#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Week_3_Step_3_5.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Week_3_Step_3_5.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="6" column="9" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
+              <folding>
+                <element signature="e#294#303#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Week_3_Step_3.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Week_3_Step_3.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.40677965">
+              <caret line="122" column="99" selection-start-line="122" selection-start-column="99" selection-end-line="122" selection-end-column="99" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -110,11 +96,12 @@
         <option value="$PROJECT_DIR$/Week_2_Step_6.py" />
         <option value="$PROJECT_DIR$/Week_3_Step_2.py" />
         <option value="$PROJECT_DIR$/Week_3_Step_2_1.py" />
-        <option value="$PROJECT_DIR$/Week_3_Step_3.py" />
         <option value="$PROJECT_DIR$/Week_3_Step_3_1.py" />
         <option value="$PROJECT_DIR$/Week_3_Step_3_2.py" />
         <option value="$PROJECT_DIR$/Week_3_Step_3_3.py" />
         <option value="$PROJECT_DIR$/Week_3_Step_3_4.py" />
+        <option value="$PROJECT_DIR$/Week_3_Step_3_5.py" />
+        <option value="$PROJECT_DIR$/Week_3_Step_3.py" />
       </list>
     </option>
   </component>
@@ -204,24 +191,7 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.Week_3_Step_3_4">
-    <configuration default="false" name="Week_3_Step_3" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="Stepik" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Week_3_Step_3.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python.Week_3_Step_3_5">
     <configuration default="false" name="Week_3_Step_3_1" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -286,6 +256,23 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="Stepik" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Week_3_Step_3_4.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Week_3_Step_3_5" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Stepik" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Week_3_Step_3_5.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -413,19 +400,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.Week_3_Step_3" />
-      <item index="1" class="java.lang.String" itemvalue="Python.Week_3_Step_3_1" />
-      <item index="2" class="java.lang.String" itemvalue="Python.Week_3_Step_3_2" />
-      <item index="3" class="java.lang.String" itemvalue="Python.Week_3_Step_3_3" />
-      <item index="4" class="java.lang.String" itemvalue="Python.Week_3_Step_3_4" />
+      <item index="0" class="java.lang.String" itemvalue="Python.Week_3_Step_3_1" />
+      <item index="1" class="java.lang.String" itemvalue="Python.Week_3_Step_3_2" />
+      <item index="2" class="java.lang.String" itemvalue="Python.Week_3_Step_3_3" />
+      <item index="3" class="java.lang.String" itemvalue="Python.Week_3_Step_3_4" />
+      <item index="4" class="java.lang.String" itemvalue="Python.Week_3_Step_3_5" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.Week_3_Step_3_4" />
-        <item index="1" class="java.lang.String" itemvalue="Python.Week_3_Step_3_3" />
-        <item index="2" class="java.lang.String" itemvalue="Python.Week_3_Step_3_2" />
-        <item index="3" class="java.lang.String" itemvalue="Python.Week_3_Step_3_1" />
-        <item index="4" class="java.lang.String" itemvalue="Python.Week_3_Step_3" />
+        <item index="0" class="java.lang.String" itemvalue="Python.Week_3_Step_3_5" />
+        <item index="1" class="java.lang.String" itemvalue="Python.Week_3_Step_3_4" />
+        <item index="2" class="java.lang.String" itemvalue="Python.Week_3_Step_3_3" />
+        <item index="3" class="java.lang.String" itemvalue="Python.Week_3_Step_3_2" />
+        <item index="4" class="java.lang.String" itemvalue="Python.Week_3_Step_3_1" />
       </list>
     </recent_temporary>
   </component>
@@ -506,7 +493,25 @@
       <option name="project" value="LOCAL" />
       <updated>1559890736399</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Regexp training">
+      <created>1559890997823</created>
+      <option name="number" value="00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1559890997823</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Regexp training">
+      <created>1559894145248</created>
+      <option name="number" value="00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1559894145248</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Regexp training">
+      <created>1559894164791</created>
+      <option name="number" value="00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1559894164791</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -801,27 +806,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Week_3_Step_3.py">
+    <entry file="file://$PROJECT_DIR$/Week_3_Step_3_3.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.9135338">
-          <caret line="143" column="8" selection-start-line="143" selection-start-column="8" selection-end-line="143" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Week_3_Step_3_1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.056497175">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
           <folding>
-            <element signature="e#226#235#0" expanded="true" />
+            <element signature="e#222#231#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Week_3_Step_3_2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state vertical-scroll-proportion="0.6214689">
           <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="28" selection-end-column="45" />
           <folding>
             <element signature="e#243#252#0" expanded="true" />
@@ -829,23 +826,41 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Week_3_Step_3_3.py">
+    <entry file="file://$PROJECT_DIR$/Week_3_Step_3_1.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="9" column="31" selection-start-line="3" selection-start-column="0" selection-end-line="9" selection-end-column="45" />
+        <state vertical-scroll-proportion="0.084745765">
+          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
           <folding>
-            <element signature="e#118#127#0" expanded="true" />
+            <element signature="e#226#235#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Week_3_Step_3_4.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2542373">
-          <caret line="9" column="45" selection-start-line="9" selection-start-column="45" selection-end-line="9" selection-end-column="45" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="20" selection-end-column="45" />
           <folding>
-            <element signature="e#88#97#0" expanded="true" />
+            <element signature="e#206#215#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Week_3_Step_3_5.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="6" column="9" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
+          <folding>
+            <element signature="e#294#303#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Week_3_Step_3.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.40677965">
+          <caret line="122" column="99" selection-start-line="122" selection-start-column="99" selection-end-line="122" selection-end-column="99" />
+          <folding />
         </state>
       </provider>
     </entry>
