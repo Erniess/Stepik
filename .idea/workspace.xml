@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e5d5c14a-c78d-4f06-a9cc-2d2726e83376" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Week_3_Step_3_2.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Week_3_Step_3.py" afterPath="$PROJECT_DIR$/Week_3_Step_3.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Week_3_Step_3_1.py" afterPath="$PROJECT_DIR$/Week_3_Step_3_1.py" />
     </list>
     <ignored path="Stepik.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -24,12 +25,26 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Week_3_Step_3.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Week_3_Step_3.py">
+      <file leaf-file-name="Week_3_Step_3_1.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Week_3_Step_3_1.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.7175141">
-              <caret line="136" column="0" selection-start-line="136" selection-start-column="0" selection-end-line="136" selection-end-column="0" />
-              <folding />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="8" selection-end-column="24" />
+              <folding>
+                <element signature="e#113#122#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Week_3_Step_3_2.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Week_3_Step_3_2.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.2542373">
+              <caret line="9" column="34" selection-start-line="9" selection-start-column="34" selection-end-line="9" selection-end-column="34" />
+              <folding>
+                <element signature="e#92#101#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -73,12 +88,14 @@
         <option value="$PROJECT_DIR$/Week_3_Step_2.py" />
         <option value="$PROJECT_DIR$/Week_3_Step_2_1.py" />
         <option value="$PROJECT_DIR$/Week_3_Step_3.py" />
+        <option value="$PROJECT_DIR$/Week_3_Step_3_1.py" />
+        <option value="$PROJECT_DIR$/Week_3_Step_3_2.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="984" />
-    <option name="y" value="69" />
+    <option name="x" value="937" />
+    <option name="y" value="67" />
     <option name="width" value="985" />
     <option name="height" value="927" />
   </component>
@@ -162,41 +179,7 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.Week_3_Step_3">
-    <configuration default="false" name="Week_2_Step_5" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="Stepik" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Week_2_Step_5.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="Week_2_Step_5_1" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="Stepik" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Week_2_Step_5_1.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python.Week_3_Step_3_2">
     <configuration default="false" name="Week_3_Step_2" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -244,6 +227,40 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="Stepik" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Week_3_Step_3.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Week_3_Step_3_1" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Stepik" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Week_3_Step_3_1.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Week_3_Step_3_2" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Stepik" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Week_3_Step_3_2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -371,19 +388,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.Week_2_Step_5" />
-      <item index="1" class="java.lang.String" itemvalue="Python.Week_2_Step_5_1" />
-      <item index="2" class="java.lang.String" itemvalue="Python.Week_3_Step_2" />
-      <item index="3" class="java.lang.String" itemvalue="Python.Week_3_Step_2_1" />
-      <item index="4" class="java.lang.String" itemvalue="Python.Week_3_Step_3" />
+      <item index="0" class="java.lang.String" itemvalue="Python.Week_3_Step_2" />
+      <item index="1" class="java.lang.String" itemvalue="Python.Week_3_Step_2_1" />
+      <item index="2" class="java.lang.String" itemvalue="Python.Week_3_Step_3" />
+      <item index="3" class="java.lang.String" itemvalue="Python.Week_3_Step_3_1" />
+      <item index="4" class="java.lang.String" itemvalue="Python.Week_3_Step_3_2" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.Week_3_Step_3" />
-        <item index="1" class="java.lang.String" itemvalue="Python.Week_3_Step_2_1" />
-        <item index="2" class="java.lang.String" itemvalue="Python.Week_3_Step_2" />
-        <item index="3" class="java.lang.String" itemvalue="Python.Week_2_Step_5_1" />
-        <item index="4" class="java.lang.String" itemvalue="Python.Week_2_Step_5" />
+        <item index="0" class="java.lang.String" itemvalue="Python.Week_3_Step_3_2" />
+        <item index="1" class="java.lang.String" itemvalue="Python.Week_3_Step_3_1" />
+        <item index="2" class="java.lang.String" itemvalue="Python.Week_3_Step_3" />
+        <item index="3" class="java.lang.String" itemvalue="Python.Week_3_Step_2_1" />
+        <item index="4" class="java.lang.String" itemvalue="Python.Week_3_Step_2" />
       </list>
     </recent_temporary>
   </component>
@@ -422,20 +439,38 @@
       <option name="project" value="LOCAL" />
       <updated>1559885793045</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Work with regular expressions">
+      <created>1559888296165</created>
+      <option name="number" value="00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1559888296165</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Work with regular expressions">
+      <created>1559889219722</created>
+      <option name="number" value="00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1559889219722</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Regexp training">
+      <created>1559889272846</created>
+      <option name="number" value="00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1559889272846</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="984" y="69" width="985" height="927" extended-state="0" />
+    <frame x="937" y="67" width="985" height="927" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934132" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21576764" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3993174" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934132" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33053893" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -480,8 +515,10 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="false" />
     <MESSAGE value="Work with regular expressions" />
-    <option name="LAST_COMMIT_MESSAGE" value="Work with regular expressions" />
+    <MESSAGE value="Regexp training" />
+    <option name="LAST_COMMIT_MESSAGE" value="Regexp training" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -691,14 +728,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Week_3_Step_2_1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8030019">
-          <caret line="36" column="9" selection-start-line="36" selection-start-column="9" selection-end-line="36" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Week_3_Step_2.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="2.532833">
@@ -715,11 +744,39 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Week_3_Step_2_1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7462406">
+          <caret line="36" column="9" selection-start-line="36" selection-start-column="9" selection-end-line="36" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Week_3_Step_3.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7175141">
-          <caret line="136" column="0" selection-start-line="136" selection-start-column="0" selection-end-line="136" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.9135338">
+          <caret line="143" column="8" selection-start-line="143" selection-start-column="8" selection-end-line="143" selection-end-column="8" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Week_3_Step_3_1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="8" selection-end-column="24" />
+          <folding>
+            <element signature="e#113#122#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Week_3_Step_3_2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.2542373">
+          <caret line="9" column="34" selection-start-line="9" selection-start-column="34" selection-end-line="9" selection-end-column="34" />
+          <folding>
+            <element signature="e#92#101#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
