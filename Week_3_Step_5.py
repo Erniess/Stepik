@@ -50,7 +50,7 @@ student2 = {
     "description": "Nicely Day"
 }
 data = [student1, student2]
-#print(json.dumps(data, indent=4, sort_keys=True)) # dumps Объект, количество отступов, сортировка
+print(json.dumps(data, indent=4, sort_keys=True)) # dumps Объект, количество отступов, сортировка
 with open('example.json', 'w') as f:
     json.dump(data, f, indent=4, sort_keys=True) # dump Запись в файл
 
