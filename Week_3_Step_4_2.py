@@ -22,6 +22,7 @@ import re
 pattern = r'<a.*href=[\"\'](?:.{3,5}://)?((?:[^\./]).*?)(?:[/\:\'\"])'
 #res = requests.get(input()).text
 
+# Тестовые запросы
 res = """
 <a href="http://stepic.org/courses">
 <a href='https://stepic.org'>
@@ -43,4 +44,5 @@ res = """
 <a link rel="icon" sizes="32x32" href="/static/icon32.png?v=59">
 """
 print(re.findall(pattern, res))
+
 [print(url) for url in sorted(set(re.findall(pattern, res))) if '@' not in url]
