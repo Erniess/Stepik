@@ -36,9 +36,20 @@ class CityInfo:
 
 def _main():
     weather_forecast = ApixuWeatherForecast()
-    for i in range(5):
-        city_info = CityInfo("Moscow", weather_forecast=weather_forecast)
-        pprint.pprint(city_info.weather_forecast())
+    city = 'Moscow'
+    city_info = CityInfo(city, weather_forecast=weather_forecast)
+    pprint.pprint(city_info.weather_forecast())
+
+api_url = "http://api.apixu.com/v1/forecast.json"
+
+params = {
+    'key' : '94224bc46fd34e7d90d150614191605',
+    'q' : 'Moscow'
+}
+res = requests.get(api_url, params=params)
+print(res.status_code)
+print(res.headers['Content-Type'])
+print(res.json())
 
 if __name__ == "__main__":
     _main()
