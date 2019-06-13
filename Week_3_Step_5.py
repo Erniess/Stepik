@@ -50,6 +50,15 @@ student2 = {
     "description": "Nicely Day"
 }
 data = [student1, student2]
-#print(json.dumps(data, indent=4, sort_keys=True)) # Объект, количество отступов, сортировка
+#print(json.dumps(data, indent=4, sort_keys=True)) # dumps Объект, количество отступов, сортировка
 with open('example.json', 'w') as f:
-    json.dump(data, f, indent=4, sort_keys=True) # Запись в файл
+    json.dump(data, f, indent=4, sort_keys=True) # dump Запись в файл
+
+data_json = json.dumps(data, indent=4, sort_keys=True) # Перевод в формат json
+data_again = json.loads(data_json) # Конвертация из формата json в python object
+print(sum(data_again[0]['scores']))
+
+with open('example.json', 'r') as f: # Чтение из файла json
+    data_again = json.load(f)
+    print(sum(data_again[0]['scores']))
+
