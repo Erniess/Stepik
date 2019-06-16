@@ -42,10 +42,19 @@ def Artsy(id, token='eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJyb2xlcyI6IiIsImV4cC
     birthday = j["birthday"]
     return sortable_name, birthday
 
-for art_id in sys.stdin:
-    art_name_born = Artsy(art_id.rstrip())
-    if art_name_born[1] not in artist_out: artist_out[art_name_born[1]] = [art_name_born[0]]
-    else: artist_out[art_name_born[1]].append(art_name_born[0])
+def _main():
+    artist_out = {}
+    filename = 'dataset_24476_4.txt'
+    with open(filename, 'r')  as f:
+        arts_id = f.read().split()
+        for art_id in arts_id:
+            art_name_born = Artsy(art_id)
+            if art_name_born[1] not in artist_out: artist_out[art_name_born[1]] = [art_name_born[0]]
+            else: artist_out[art_name_born[1]].append(art_name_born[0])
 
-for art_year in sorted(artist_out):
-    [print(art_name) for art_name in sorted(artist_out[art_year])]
+    with open('dataset_ans_art.txt', 'a') as f:
+        for art_year in sorted(artist_out):
+            f.write(''.join([art_name+'\n' for art_name in sorted(artist_out[art_year])]))
+
+if __name__ == '__main__':
+    _main()
