@@ -33,6 +33,7 @@ import json
 import sys
 
 artist_out = {}
+
 def Artsy(id, token='eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJyb2xlcyI6IiIsImV4cCI6MTU2MTI4NTk4OCwiaWF0IjoxNTYwNjgxMTg4LCJhdWQiOiI1ZDA2MWFlNDEzYzBlMTAwMGU3NjIzYTgiLCJpc3MiOiJHcmF2aXR5IiwianRpIjoiNWQwNjFhZTRhN2NkNTIwMDExMDE3YTViIn0.6ZW6hT7xUgzTS6BSMoj7TiqNrsLVewNVbh-vDX_q8mE'):
     headers = {"X-Xapp-Token" : token}
     r = requests.get("https://api.artsy.net/api/artists/{}".format(id), headers=headers)
@@ -41,19 +42,10 @@ def Artsy(id, token='eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJyb2xlcyI6IiIsImV4cC
     birthday = j["birthday"]
     return sortable_name, birthday
 
-arts_id = [
-    '4d8b92b34eb68a1b2c0003f4',
-    '537def3c139b21353f0006a6',
-    '4e2ed576477cc70001006f99',
-    '4d8b92b34eb68a1b2c0003f4',
-    '537def3c139b21353f0006a6',
-    '4e2ed576477cc70001006f99',
-]
-for art_id in arts_id:
+for art_id in sys.stdin:
     art_name_born = Artsy(art_id.rstrip())
-    print(art_name_born[1], art_name_born[0])
     if art_name_born[1] not in artist_out: artist_out[art_name_born[1]] = [art_name_born[0]]
     else: artist_out[art_name_born[1]].append(art_name_born[0])
 
 for art_year in sorted(artist_out):
-    print(artist_out[art_year])
+    [print(art_name) for art_name in sorted(artist_out[art_year])]
