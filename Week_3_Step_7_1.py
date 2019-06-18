@@ -24,7 +24,9 @@
 # Ценность цвета равна сумме ценностей всех кубиков этого цвета.
 #
 # Выведите через пробел три числа: ценности красного, зеленого и синего цветов.
-
+# пример:
+# <cube color="blue"><cube color="red"><cube color="green"></cube></cube><cube color="red"></cube></cube>
+# Ответ: 4 3 1
 
 from xml.etree import ElementTree
 
