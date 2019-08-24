@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e5d5c14a-c78d-4f06-a9cc-2d2726e83376" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Алгоритмы теория и практика. Методы/2 Введение теория и задачи/2.2 Числа Фибоначчи/Задачи/Part_2.2_Step_6.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Алгоритмы теория и практика. Методы/2 Введение теория и задачи/2.2 Числа Фибоначчи/Задачи/Part_2.2_Step_7.py" afterPath="$PROJECT_DIR$/Алгоритмы теория и практика. Методы/2 Введение теория и задачи/2.2 Числа Фибоначчи/Задачи/Part_2.2_Step_7.py" />
     </list>
     <ignored path="Stepik.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -24,11 +24,31 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Part_2.2_Step_6.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Part_2.2_Step_6.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Алгоритмы теория и практика. Методы/2 Введение теория и задачи/2.2 Числа Фибоначчи/Задачи/Part_2.2_Step_6.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.19736843">
-              <caret line="7" column="25" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="16" column="8" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Part_2.2_Step_7.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Алгоритмы теория и практика. Методы/2 Введение теория и задачи/2.2 Числа Фибоначчи/Задачи/Part_2.2_Step_7.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="7" selection-end-column="12" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Part_2.2_Step_8.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Алгоритмы теория и практика. Методы/2 Введение теория и задачи/2.2 Числа Фибоначчи/Задачи/Part_2.2_Step_8.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.62030077">
+              <caret line="22" column="10" selection-start-line="22" selection-start-column="10" selection-end-line="22" selection-end-column="10" />
               <folding />
             </state>
           </provider>
@@ -49,8 +69,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Step_%.py" />
-        <option value="$PROJECT_DIR$/Step_5.py" />
         <option value="$PROJECT_DIR$/Step_6.py" />
         <option value="$PROJECT_DIR$/Week_2_Step_1_1.py" />
         <option value="$PROJECT_DIR$/import_lesson.py" />
@@ -100,6 +118,8 @@
         <option value="$PROJECT_DIR$/Алгоритмы теория и практика. Методы/1.1 Обзор/Задачи/Part_1.1_Step_4.py" />
         <option value="$PROJECT_DIR$/Алгоритмы теория и практика. Методы/2 Введение теория и задачи/2.2 Числа Фибоначчи/Workbook.py" />
         <option value="$PROJECT_DIR$/Алгоритмы теория и практика. Методы/2 Введение теория и задачи/2.2 Числа Фибоначчи/Задачи/Part_2.2_Step_6.py" />
+        <option value="$PROJECT_DIR$/Алгоритмы теория и практика. Методы/2 Введение теория и задачи/2.2 Числа Фибоначчи/Задачи/Part_2.2_Step_7.py" />
+        <option value="$PROJECT_DIR$/Алгоритмы теория и практика. Методы/2 Введение теория и задачи/2.2 Числа Фибоначчи/Задачи/Part_2.2_Step_8.py" />
       </list>
     </option>
   </component>
@@ -286,41 +306,7 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.Part_2.2_Step_6">
-    <configuration default="false" name="Week_3_Step_7" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="Stepik" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Week_3_Step_7.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="Week_3_Step_7_1" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="Stepik" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Week_3_Step_7_1.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python.Part_2.2_Step_8">
     <configuration default="false" name="Part_1.1_Step_4" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -368,6 +354,40 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="Stepik" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Алгоритмы теория и практика. Методы/2 Введение теория и задачи/2.2 Числа Фибоначчи/Задачи/Part_2.2_Step_6.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Part_2.2_Step_7" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Алгоритмы теория и практика. Методы/2 Введение теория и задачи/2.2 Числа Фибоначчи/Задачи" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Stepik" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Алгоритмы теория и практика. Методы/2 Введение теория и задачи/2.2 Числа Фибоначчи/Задачи/Part_2.2_Step_7.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Part_2.2_Step_8" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Алгоритмы теория и практика. Методы/2 Введение теория и задачи/2.2 Числа Фибоначчи/Задачи" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Stepik" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Алгоритмы теория и практика. Методы/2 Введение теория и задачи/2.2 Числа Фибоначчи/Задачи/Part_2.2_Step_8.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -495,19 +515,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.Week_3_Step_7" />
-      <item index="1" class="java.lang.String" itemvalue="Python.Week_3_Step_7_1" />
-      <item index="2" class="java.lang.String" itemvalue="Python.Part_1.1_Step_4" />
-      <item index="3" class="java.lang.String" itemvalue="Python.Workbook" />
-      <item index="4" class="java.lang.String" itemvalue="Python.Part_2.2_Step_6" />
+      <item index="0" class="java.lang.String" itemvalue="Python.Part_1.1_Step_4" />
+      <item index="1" class="java.lang.String" itemvalue="Python.Workbook" />
+      <item index="2" class="java.lang.String" itemvalue="Python.Part_2.2_Step_6" />
+      <item index="3" class="java.lang.String" itemvalue="Python.Part_2.2_Step_7" />
+      <item index="4" class="java.lang.String" itemvalue="Python.Part_2.2_Step_8" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.Part_2.2_Step_6" />
-        <item index="1" class="java.lang.String" itemvalue="Python.Workbook" />
-        <item index="2" class="java.lang.String" itemvalue="Python.Part_1.1_Step_4" />
-        <item index="3" class="java.lang.String" itemvalue="Python.Week_3_Step_7_1" />
-        <item index="4" class="java.lang.String" itemvalue="Python.Week_3_Step_7" />
+        <item index="0" class="java.lang.String" itemvalue="Python.Part_2.2_Step_8" />
+        <item index="1" class="java.lang.String" itemvalue="Python.Part_2.2_Step_7" />
+        <item index="2" class="java.lang.String" itemvalue="Python.Part_2.2_Step_6" />
+        <item index="3" class="java.lang.String" itemvalue="Python.Workbook" />
+        <item index="4" class="java.lang.String" itemvalue="Python.Part_1.1_Step_4" />
       </list>
     </recent_temporary>
   </component>
@@ -786,7 +806,19 @@
       <option name="project" value="LOCAL" />
       <updated>1566226854246</updated>
     </task>
-    <option name="localTasksCounter" value="45" />
+    <task id="LOCAL-00045" summary="Algorithms&#10;Fibonacci task 6">
+      <created>1566227398432</created>
+      <option name="number" value="00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1566227398432</updated>
+    </task>
+    <task id="LOCAL-00046" summary="Algorithms&#10;Fibonacci task 7">
+      <created>1566228439000</created>
+      <option name="number" value="00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1566228439000</updated>
+    </task>
+    <option name="localTasksCounter" value="47" />
     <servers />
   </component>
   <component name="TodoView">
@@ -862,7 +894,10 @@
     <MESSAGE value="XML и LXML" />
     <MESSAGE value="Test Unit&#10;" />
     <MESSAGE value="Algorithms&#10;Fibonacci workbook" />
-    <option name="LAST_COMMIT_MESSAGE" value="Algorithms&#10;Fibonacci workbook" />
+    <MESSAGE value="Algorithms&#10;Fibonacci task 6" />
+    <MESSAGE value="Algorithms&#10;Fibonacci task 7" />
+    <MESSAGE value="Algorithms&#10;Fibonacci task 8" />
+    <option name="LAST_COMMIT_MESSAGE" value="Algorithms&#10;Fibonacci task 8" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -887,10 +922,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Алгоритмы теория и практика. Методы/2 Введение теория и задачи/2.2 Числа Фибоначчи/Задачи/Part_2.2_Step_7.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="7" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Алгоритмы теория и практика. Методы/2 Введение теория и задачи/2.2 Числа Фибоначчи/Задачи/Part_2.2_Step_6.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.19736843">
-          <caret line="7" column="25" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="16" column="8" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Алгоритмы теория и практика. Методы/2 Введение теория и задачи/2.2 Числа Фибоначчи/Задачи/Part_2.2_Step_8.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.62030077">
+          <caret line="22" column="10" selection-start-line="22" selection-start-column="10" selection-end-line="22" selection-end-column="10" />
           <folding />
         </state>
       </provider>
